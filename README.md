@@ -2,6 +2,9 @@
 
 ## Publicación en GitHub
 
+- Página pública: https://wilmerlapaia.github.io/curva-s-obra-sesion19/
+- Repositorio: https://github.com/wilmerlapaia/curva-s-obra-sesion19
+
 La versión de consulta de GitHub Pages se genera con `python exportar_web.py` en `docs/index.html`. Incluye gráficos, indicadores, tablas con búsqueda y descarga del Excel. Es una instantánea de los datos al publicar; GitHub Pages no ejecuta el servidor de Streamlit.
 
 La aplicación original sigue disponible mediante `streamlit run app.py`. Para alojarla con ejecución de Python, puede conectarse este repositorio a Streamlit Community Cloud y seleccionar `app.py`, rama `main` y Python 3.12. En ese caso, omite la dirección local `server.address` de `.streamlit/config.toml` en la configuración del servicio.
